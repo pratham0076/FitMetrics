@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-title">
+      <a href="/"><img src="images/Screenshot 2025-01-20 201507.png" width="100px" length="80px"></a>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/signin">Sign In</a>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="ui container">
+      <div class="ui raised card m-auto">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit" class="ui button primary">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/signup.js"></script>
+</body>
+</html>
